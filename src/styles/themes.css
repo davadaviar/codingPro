@@ -71,13 +71,13 @@
     --error-900 : #912018;
 
     /* Text-size */
-    --text-2xs : ;
-    --text-xs : ;
-    --text-sm : ;
-    --text-m : ;
-    --text-l : ;
-    --text-xl : ;
-    --text-2xl : ;
+    --text-2xs : 10px;
+    --text-xs : 12px;
+    --text-sm : 14px;
+    --text-m : 16px;
+    --text-l : 18px;
+    --text-xl : 24px;
+    --text-2xl : 30px;
 
     /* Border Radius */
     --rounded-sm : ;

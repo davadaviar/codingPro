@@ -1,0 +1,103 @@
+body {
+    max-height: 100vh;
+}
+
+.login-form {
+    width: 30%;
+    margin: 13% auto;
+    padding: 20px;
+    border: 1px solid var(--neutral-400);
+    border-radius: 6px;
+}
+
+.login-form h2 {
+    color: var(--text-black);
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.span-text {
+    color: var(--primary-400);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.btn-login {
+    width: 100%;
+    margin: 10px 0 15px 0;
+}
+
+.modal-window {
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 1s ease-in-out;
+    z-index: 8;
+    display: block ;
+}
+
+.modal-wrapper {
+    position: relative;
+    margin: 15% auto;
+    width: 30%;
+    background-color: var(--neutral-100);
+    padding: 30px;
+    border-radius: 6px;
+}
+
+.icon-cross {
+    margin-bottom: 30px;
+    color: var(--error-600);
+}
+
+.modal-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-header > h4 {
+    font-size: var(--text-2xl);
+    font-weight: 700;
+    color: var(--text-black);
+}
+
+.modal-body > p {
+    font-size: var(--text-m);
+    color: var(--text-grey);
+    margin-top: 16px;
+    margin-bottom: 30px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .login-form {
+        width: 80%;
+        margin: 60% auto;
+        padding: 15px;
+    }
+
+    .modal-wrapper {
+        width: 80%;
+        margin: 60% auto;
+    }
+
+    .icon-cross {
+        margin-bottom: 15px;
+    }
+
+    .modal-header > h4 {
+        font-size: var(--text-xl);
+    }
+
+    .modal-body p {
+        font-size: var(--text-l);
+    }
+}
+
