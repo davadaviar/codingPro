@@ -75,13 +75,15 @@
     --text-xs : 12px;
     --text-sm : 14px;
     --text-m : 16px;
-    --text-l : 18px;
+    --text-l : 20px;
     --text-xl : 24px;
     --text-2xl : 30px;
+    --text-3xl : 34px;
+    --text-4xl : 40px;
 
     /* Border Radius */
-    --rounded-sm : ;
-    --rounded-m : ;
-    --rounded-l : ;
-    --rounded-xl : ;
+    --rounded-sm : 6px;
+    --rounded-m : 8px;
+    --rounded-l : 10px;
+    --rounded-xl : 12px;
 }

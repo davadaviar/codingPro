@@ -1,0 +1,29 @@
+@import './utils.css';
+
+body {
+    color: var(--text-grey);
+}
+
+main {
+    padding: 80px;
+}
+
+.modul-banner {
+    display: block;
+    width: 60%;
+    margin: 50px auto;
+    border-radius: var(--rounded-xl);
+}
+
+@media screen and (max-width: 768px) {
+    
+    main {
+        padding: 30px 24px;
+    }
+
+    .modul-banner {
+        width: 80%;
+        margin-top: 30px;
+        border-radius: var(--rounded-m);
+    }
+}
