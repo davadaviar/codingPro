@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Oswald:wght@200;300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+:root {
+
+    /* Base Color */
+    --white-base : #FFF;
+    --black-base : #000;
+
+    /* Text Color */
+    --text-black : #313131;
+    --text-grey : #646464;
+
+    /* Neutral Color */
+    --neutral-50 : #FCFCFD;
+    --neutral-100 : #F8FAFC;
+    --neutral-200 : #EEF2F6;
+    --neutral-300 : #E3E8EF;
+    --neutral-400 : #CDD5DF;
+    --neutral-500 : #9AA4B2;
+    --neutral-600 : #697586;
+    --neutral-700 : #4B5565;
+    --neutral-800 : #364152;
+    --neutral-900 : #202939;
+    
+    /* Primary Color */
+    --primary-50 : #EEF6FE;
+    --primary-100 : #EFF4FF;
+    --primary-200 : #D1E0FF;
+    --primary-300 : #B2CCFF;
+    --primary-400 : #84ADFF;
+    --primary-500 : #528BFF;
+    --primary-600 : #2970FF;
+    --primary-700 : #155EEF;
+    --primary-800 : #004EEB;
+    --primary-900 : #00359E;
+
+    /* Success Color */
+    --success-50 : #F6FEF9;
+    --success-100 : #EDFCF2;
+    --success-200 : #D3F8DF;
+    --success-300 : #AAF0C4;
+    --success-400 : #73E2A3;
+    --success-500 : #3CCB7F;
+    --success-600 : #16B364;
+    --success-700 : #099250;
+    --success-800 : #087443;
+    --success-900 : #095C37;
+
+    /* Warning Color */
+    --warning-50 : #FFFBFA;
+    --warning-100 : #FFF9E8;
+    --warning-200 : #FFF3D0;
+    --warning-300 : #FFEDA4;
+    --warning-400 : #FFE16E;
+    --warning-500 : #FFD42A;
+    --warning-600 : #FFCC00;
+    --warning-700 : #E2B500;
+    --warning-800 : #C19B00;
+    --warning-900 : #846900;
+
+    /* Error Color */
+    --error-50 : #FFFBFA;
+    --error-100 : #FEF3F2;
+    --error-200 : #FEE4E2;
+    --error-300 : #FECDCA;
+    --error-400 : #FDA29B;
+    --error-500 : #F97066;
+    --error-600 : #F04438;
+    --error-700 : #D92D20;
+    --error-800 : #B42318;
+    --error-900 : #912018;
+
+    /* Text-size */
+    --text-2xs : ;
+    --text-xs : ;
+    --text-sm : ;
+    --text-m : ;
+    --text-l : ;
+    --text-xl : ;
+    --text-2xl : ;
+
+    /* Border Radius */
+    --rounded-sm : ;
+    --rounded-m : ;
+    --rounded-l : ;
+    --rounded-xl : ;
+}
