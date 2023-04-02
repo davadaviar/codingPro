@@ -1,3 +1,7 @@
+.modul-header {
+    margin-bottom: 30px;
+}
+
 .modul-header h3 {
     font-size: var(--text-4xl);
     font-weight: 700;
@@ -6,15 +10,21 @@
 }
 
 .divider {
-    margin-top: 30px;
     color: var(--neutral-500);
-    margin-bottom: 30px;
+}
+
+.sub-header {
+    margin-top: 30px;
 }
 
 .sub-header h3 {
     color: var(--text-black);
     font-size: var(--text-2xl);
     font-weight: 600;
+}
+
+.sub-body {
+    margin-bottom: 30px;
 }
 
 .sub-body ul li > p {
