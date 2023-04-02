@@ -12,7 +12,7 @@ for (let btn = 0; btn < loginBtn.length; btn++) {
         const passwordInput = document.getElementById('password-input').value;
 
         if(emailInput === 'daviar@coding.pro' && passwordInput === '12345') {
-            window.location.href = 'secondPage.html';
+            window.location.href = 'pengantarPage.html';
         } else {
             const modal = document.createElement("div");
             modal.classList.add("modal-window");
