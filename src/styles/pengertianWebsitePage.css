@@ -1,2 +1,17 @@
 @import './utils.css';
 
+.static-web, .dinamic-web {
+    width: 70%;
+    display: block;
+    margin: 50px auto;
+    border-radius: var(--rounded-xl);
+}
+
+@media screen and (max-width: 768px) {
+
+    .static-web, .dinamic-web {
+        width: 80%;
+        margin-top: 30px;
+        border-radius: var(--rounded-m);
+    }
+}
