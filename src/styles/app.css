@@ -6,6 +6,7 @@
 @import './silabusPage.css';
 @import './pengertianWebsitePage.css';
 @import './pengertianServerClientPage.css';
+@import './strukturWebsitePage.css';
 
 * {
     padding: 0;
