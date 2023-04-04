@@ -1,3 +1,8 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 .modul-header {
     margin-bottom: 30px;
 }
@@ -29,6 +34,18 @@
 
 .sub-body ul li > p {
     font-size: var(--text-m);
+}
+
+.note {
+    padding: 10px 20px;
+    background-color: var(--primary-50);
+    border-left: 4px solid var(--primary-400);
+    color: var(--primary-500);
+}
+
+.note p {
+    padding: 0;
+    margin: 0;
 }
 
 footer {
