@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="src/library/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="src/styles/app.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/85426d1d7d.js" crossorigin="anonymous"></script>
     <title>Struktur HTML</title>
 </head>
 <body>
@@ -38,7 +39,36 @@
         <!-- End : Note -->
 
         <!-- Start : Preview Code -->
-        <iframe width="100%" height="600px" src="https://replit.com/team/fe-dev-unesa/Struktur-HTML"></iframe>
+        <section class="code-editor">
+            <div class="left-side">
+                <!-- Start : Html -->
+                <div class="html-area">
+                    <label><i class="fa-brands fa-html5"></i>HTML</label>
+                    <textarea name="html" id="html-input" onkeyup="run()"></textarea>
+                </div>
+                <!-- End : Html -->
+
+                <!-- Start : Css -->
+                <div class="css-area">
+                    <label><i class="fa-brands fa-css3-alt"></i>CSS</label>
+                    <textarea name="html" id="css-input" onkeyup="run()"></textarea>
+                </div>
+                <!-- End : Css -->
+
+                <!-- Start : Js -->
+                <div class="js-area">
+                    <label><i class="fa-brands fa-js"></i>Javascript</label>
+                    <textarea name="html" id="js-input" onkeyup="run()"></textarea>
+                </div>
+                <!-- End : Js -->
+            </div>
+            <div class="right-side">
+                <div class="output-area">
+                    <label><i class="fa-solid fa-play"></i>Output</label>
+                    <iframe id="output"></iframe>
+                </div>
+            </div>
+        </section>
         <!-- End : Preview Code -->
     </main>
 
@@ -51,5 +81,7 @@
     
     <script src="src/library/jquery/jquery-3.6.0.min.js"></script>
     <script src="src/library/bootstrap/js/bootstrap.js"></script>
+    <script src="src/scripts/codeEditor.js"></script>
+    
 </body>
 </html>
