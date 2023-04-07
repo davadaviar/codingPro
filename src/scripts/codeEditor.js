@@ -35,7 +35,7 @@ function runCodeHandler() {
     let output = document.querySelector('#output');
     let outputPreview = output.contentWindow.document;
     outputPreview.open();
-    outputPreview.write(htmlCode+cssCode+jsCode);
+    outputPreview.write(`${htmlCode} ${cssCode} ${jsCode}`);
     outputPreview.close();
 }
 
