@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="src/styles/app.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="src/library/codemirror/lib/codemirror.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ace-builds@1.16.0/css/ace.min.css">
     <link rel="stylesheet" href="src/library/codemirror/theme/dracula.css">
     <script src="https://kit.fontawesome.com/85426d1d7d.js" crossorigin="anonymous"></script>
     <script src="src/library/codemirror/lib/codemirror.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/ace-builds@1.16.0/src-min-noconflict/ace.min.js"></script>
     <script src="src/library/codemirror/mode/xml/xml.js"></script>
     <script src="src/library/codemirror/mode/css/css.js"></script>
     <script src="src/library/codemirror/mode/javascript/javascript.js"></script>
@@ -29,7 +31,7 @@
         <hr class="divider">
 
         <!-- Start : Intro struktur HTML -->
-        <article class="sub-materi" id="intro-struktur__html">
+        <article class="sub-materi">
             <section class="sub-body mt-5">
                 <p>
                     Langsung saja kita membahas markup language pembentuk sebuah web yaitu HTML. HTML memiliki dua bagian penting yaitu Head dan Body. Untuk lebih jelasnya bisa melihat bagian berikut ini.                
@@ -38,61 +40,68 @@
         </article>
         <!-- End : Intro struktur HTML -->
 
-        <!-- Start : Note -->
-        <article class="note">
-            <p>
-                Berikut adalah code editor yang bisa digunakan untuk mempraktikkan materi pada modul ini.
-        </article>
-        <!-- End : Note -->
-
         <!-- Start : Code Preview -->
         <div class="code-preview">
-            
+            <textarea class="html-preview" id="html-preview-1">
+<!DOCTYPE html>
+
+<!-- Ini sebagai penanda bahwa elemen file ini adalah elemen HTML -->
+<!-- Di dalam tag ini juga berisi elemen HTML -->
+</html>
+            </textarea>
         </div>
         <!-- End : Code Preview -->
 
         <!-- Start : Intro struktur HTML -->
-        <article class="sub-materi" id="intro-struktur__html">
+        <article class="sub-materi">
             <section class="sub-body mt-5">
                 <p>
-                    Pada project di atas bisa kita amati bahwa pada sebuah elemen HTML terdapat bagian Head yang berisikan beberapa tag HTML seperti meta data, title, dan link yang digunakan untuk mensinkronkan file CSS kita pada HTML tersebut.               
+                    Pada code di atas adalah sebuah sintaks yang menunjukkan bahwa pada file ini memiliki unsur elemen HTML. Sintak tersebut berada pada awal bagian ketika kita akan menuliskan kode HTML dan diakhiri dengan tag html seperti kode di atas.
                 </p>
             </section>
         </article>
         <!-- End : Intro struktur HTML -->
 
-        <!-- Start : Preview Code -->
-        <section class="code-editor">
-            <div class="left-side">
-                <!-- Start : Html -->
-                <div class="html-area">
-                    <label><i class="fa-brands fa-html5"></i>HTML</label>
-                    <textarea name="html" id="html-input"></textarea>
-                </div>
-                <!-- End : Html -->
+        <!-- Start : Code Preview -->
+        <div class="code-preview">
+            <textarea class="html-preview" id="html-preview-2">
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8"> 
+    <!-- meta data ini memiliki arti bahwa penulisan kode HTML ini mengikuti tata cara penulisan UTF-8 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- meta data ini berfungsi sebagai responsif dari suatu web ketika berganti-ganti ukuran layar dari device -->
+    <link href="style.css" rel="stylesheet" type="text/css" /> 
+    <!-- Sedangkan tag link memiliki banyak fungsi dan di sini salah satu fungsinya adalah mensinkronkan file CSS kita pada elemen HTML yang dibuat -->
+    <title>Title</title>
+</head>
 
-                <!-- Start : Css -->
-                <div class="css-area">
-                    <label><i class="fa-brands fa-css3-alt"></i>CSS</label>
-                    <textarea name="html" id="css-input"></textarea>
-                </div>
-                <!-- End : Css -->
+<!-- Ini sebagai penanda bahwa elemen file ini adalah elemen HTML -->
+<!-- Di dalam tag ini juga berisi elemen HTML -->
+</html>
+            </textarea>
+        </div>
+        <!-- End : Code Preview -->
 
-                <!-- Start : Js -->
-                <div class="js-area">
-                    <label><i class="fa-brands fa-js"></i>Javascript</label>
-                    <textarea name="html" id="js-input"></textarea>
-                </div>
-                <!-- End : Js -->
-            </div>
-            <div class="right-side">
-                <div class="output-area">
-                    <button class="btn btn-primary btn-run"><i class="fa-solid fa-play"></i>Run</button>
-                    <iframe id="output"></iframe>
-                </div>
-            </div>
-        </section>
-        <!-- End : Preview Code -->
+        <!-- Start : Intro struktur HTML -->
+        <article class="sub-materi">
+            <section class="sub-body mt-5">
+                <p>
+                    Untuk bagian header secara umum berisikan tag-tag yang telah disebutkan di atas. Kemudian untuk pembahasan selanjutnya adalah bagian Body. Di bagian ini lah kita dapat menuliskan kode HTML kita. Dan di dalam tag body ini juga kita dapat meletakkan sebuah file script yang akan digunakan di website yang kita buat. Dan elemen yang ada di dalam tag body inilah yang nanti akan dirender/ditampilkan pada web browser kita menjadi sebuah halaman yang mudah kita pahami. 
+                </p>
+            </section>
+        </article>
+        <!-- End : Intro struktur HTML -->
+
+        <!-- Start : Note -->
+        <article class="note mb-5">
+            <p>
+                Hal yang penting kita pahami adalah HTML dan CSS bukanlah bahasa pemrograman. Banyak di antara kita yang menganggap HTML dan CSS adalah sebuah bahasa pemrograman. HTML dan CSS hanyalah sebuah markup language yang di mana mereka hanya sebagai pembangun struktur dari sebuah website. Dan selain itu HTML dan CSS di dalam penulisannya tidak terkandung logika sama sekali sehingga tidak dimasukkan ke dalam kategori bahasa pemrograman. Sedangkan Javascript adalah sebuah bahasa pemrograman karena dengan Javascript kita dapat membuat fungsi-fungsi  dan meletakkan sebuah logika /algoritma yang membuat sebuah website menjadi website yang fungsional dan interaktif bagi pengguna yang membutuhkan.
+            </p>
+        </article>
+        <!-- End : Note -->
+
     </main>
 
     <!-- Start : Footer -->
@@ -105,6 +114,8 @@
     <script src="src/library/jquery/jquery-3.6.0.min.js"></script>
     <script src="src/library/bootstrap/js/bootstrap.js"></script>
     <script src="src/scripts/codeEditor.js"></script>
+    <script src="src/scripts/ace.js"></script>
+    <script src="src/scripts/htmlPreview.js"></script>
     
 </body>
 </html>
