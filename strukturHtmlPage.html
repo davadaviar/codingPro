@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="src/styles/app.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="src/library/codemirror/lib/codemirror.css">
+    <link rel="stylesheet" href="src/library/codemirror/theme/dracula.css">
     <script src="https://kit.fontawesome.com/85426d1d7d.js" crossorigin="anonymous"></script>
     <script src="src/library/codemirror/lib/codemirror.js"></script>
     <script src="src/library/codemirror/mode/xml/xml.js"></script>
@@ -66,27 +67,27 @@
                 <!-- Start : Html -->
                 <div class="html-area">
                     <label><i class="fa-brands fa-html5"></i>HTML</label>
-                    <textarea name="html" id="html-input" onkeyup="run()"></textarea>
+                    <textarea name="html" id="html-input"></textarea>
                 </div>
                 <!-- End : Html -->
 
                 <!-- Start : Css -->
                 <div class="css-area">
                     <label><i class="fa-brands fa-css3-alt"></i>CSS</label>
-                    <textarea name="html" id="css-input" onkeyup="run()"></textarea>
+                    <textarea name="html" id="css-input"></textarea>
                 </div>
                 <!-- End : Css -->
 
                 <!-- Start : Js -->
                 <div class="js-area">
                     <label><i class="fa-brands fa-js"></i>Javascript</label>
-                    <textarea name="html" id="js-input" onkeyup="run()"></textarea>
+                    <textarea name="html" id="js-input"></textarea>
                 </div>
                 <!-- End : Js -->
             </div>
             <div class="right-side">
                 <div class="output-area">
-                    <label><i class="fa-solid fa-play"></i>Output</label>
+                    <button class="btn btn-primary btn-run"><i class="fa-solid fa-play"></i>Run</button>
                     <iframe id="output"></iframe>
                 </div>
             </div>
