@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="src/styles/app.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="src/library/codemirror/lib/codemirror.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ace-builds@1.16.0/css/ace.min.css">
     <link rel="stylesheet" href="src/library/codemirror/theme/dracula.css">
     <script src="https://kit.fontawesome.com/85426d1d7d.js" crossorigin="anonymous"></script>
     <script src="src/library/codemirror/lib/codemirror.js"></script>
@@ -49,21 +48,86 @@
                 <p>
                     Tag heading merupakan tag yang digunakan untuk menampilkan elemen heading pada sebuah website. Tag ini biasanya digunakan untuk bagian judul dari sebuah konten yang ada di website. Berikut macam - macam dari tag heading pada HTML.
                 </p>
-
-                <!-- Start : Code Preview -->
-        <div class="code-preview">
-            <textarea class="html-preview" id="html-preview-1">
-<!DOCTYPE html>
-
-<!-- Ini sebagai penanda bahwa elemen file ini adalah elemen HTML -->
-<!-- Di dalam tag ini juga berisi elemen HTML -->
-</html>
-            </textarea>
-        </div>
-        <!-- End : Code Preview -->
             </section>
         </article>
         <!-- End : Tag Heading -->
+
+        <!-- Start : Preview Code -->
+        <section class="code-editor mt-2 mb-4">
+            <div class="left-side">
+                <!-- Start : Html -->
+                <div class="html-area">
+                    <label><i class="fa-brands fa-html5"></i>HTML</label>
+                    <textarea name="html" class="html-input" id="html-input-1">
+<!-- Klik "Run" untuk melihat hasil -->
+<!DOCTYPE html>
+
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+</html>
+                    </textarea>
+                </div>
+                <!-- End : Html -->
+            </div>
+            <div class="right-side">
+                <div class="output-area">
+                    <button class="btn btn-primary btn-run"><i class="fa-solid fa-play"></i>Run</button>
+                    <iframe id="output"></iframe>
+                </div>
+            </div>
+        </section>
+        <!-- End : Preview Code -->
+
+        <hr class="divider">
+
+        <!-- Start : Tag Paragraph -->
+        <article class="sub-materi" id="tag-paragraph">
+            <section class="sub-header">
+                <h3>Tag Paragraph</h3>
+            </section>
+            <section class="sub-body mt-3">
+                <p>
+                    Sama seperti tag heading, tag paragraph ini berguna untuk memberikan teks untuk sebuah konten yang ada pada komponen sebuah website. Tag paragraph pada HTML dituliskan seperti di bawah.
+                </p>
+            </section>
+        </article>
+        <!-- End : Tag Paragraph -->
+
+        <!-- Start : Preview Code -->
+        <section class="code-editor mt-2 mb-4">
+            <div class="left-side">
+                <!-- Start : Html -->
+                <div class="html-area">
+                    <label><i class="fa-brands fa-html5"></i>HTML</label>
+                    <textarea name="html" class="html-input" id="html-input-2">
+<!-- Klik "Run" untuk melihat hasil -->
+<!DOCTYPE html>
+
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+</html>
+                    </textarea>
+                </div>
+                <!-- End : Html -->
+            </div>
+            <div class="right-side">
+                <div class="output-area">
+                    <button class="btn btn-primary btn-run"><i class="fa-solid fa-play"></i>Run</button>
+                    <iframe id="output"></iframe>
+                </div>
+            </div>
+        </section>
+        <!-- End : Preview Code -->
     </main>
     
     <!-- Start : Footer -->
@@ -75,8 +139,7 @@
 
     <script src="src/library/jquery/jquery-3.6.0.min.js"></script>
     <script src="src/library/bootstrap/js/bootstrap.js"></script>
-    <script src="src/scripts/code-editor/codeEditor.js"></script>
-    <script src="src/scripts/ace.js"></script>
-    <script src="src/scripts/html-preview/tagHtml.js"></script>
+    <script src="src/scripts/html-editor/tag-html-page/headingEditor.js"></script>
+    <script src="src/scripts/html-editor/tag-html-page/paragraphEditor.js"></script>
 </body>
 </html>

@@ -9,6 +9,8 @@
 @import './strukturWebsitePage.css';
 @import './strukturHtmlPage.css';
 @import './tagHtmlPage.css';
+@import './codeEditor.css';
+@import './htmlEditor.css';
 
 * {
     padding: 0;
