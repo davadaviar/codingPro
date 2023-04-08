@@ -3,6 +3,7 @@
     margin: 0;
 }
 
+/* Start : Modul Header */
 .modul-header {
     margin-bottom: 30px;
 }
@@ -13,11 +14,15 @@
     color: var(--text-black);
     margin-bottom: 20px;
 }
+/* End : Modul Header */
 
+/* Start : Divider */
 .divider {
     color: var(--neutral-500);
 }
+/* End : Divider */
 
+/* Start : Materi */
 .sub-header {
     margin-top: 30px;
 }
@@ -35,7 +40,9 @@
 .sub-body ul li > p {
     font-size: var(--text-m);
 }
+/* End : Materi */
 
+/* Start : Note */
 .note {
     padding: 10px 20px;
     background-color: var(--primary-50);
@@ -47,11 +54,32 @@
     padding: 0;
     margin: 0;
 }
+/* End : Note */
 
+/* Start : Source Code Preview */
 #source-preview {
     width: 100%;
 }
 
+.code-preview {
+    margin-top: 20px 0 30px 0;
+    width: 100%;
+    height: 10em;
+}
+
+.html-preview {
+    width: 100%;
+    height: 10em;
+    padding: 15px;
+    border: none;
+    outline: none;
+    resize: none;
+    text-align: left;
+    align-content: center;
+}
+/* End : Source Code Preview */
+
+/* Start : Code Editor */
 .code-editor {
     margin-top: 50px;
     display: flex;
@@ -64,9 +92,6 @@
     height: 200px !important;
 }
 
-/* .CodeMirror-scroll {
-    margin: 20px !important;
-} */
 
 .left-side {
     width: 50%;
@@ -110,25 +135,9 @@ iframe {
     padding: 20px;
     background-color: var(--white-base);
 }
+/* End : Code Editor */
 
-.code-preview {
-    margin-top: 20px 0 30px 0;
-    width: 100%;
-    height: 10em;
-}
-
-.html-preview {
-    width: 100%;
-    height: 10em;
-    padding: 15px;
-    border: none;
-    outline: none;
-    resize: none;
-    text-align: left;
-    align-content: center;
-}
-
-
+/* Start : Footer Navbar */
 footer {
     width: 100%;
     display: flex;
@@ -138,6 +147,7 @@ footer {
     position: fixed;
     bottom: 0;
 }
+/* End : Footer Navbar */
 
 @media screen and (max-width: 768px) {
 
