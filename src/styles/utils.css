@@ -48,6 +48,7 @@
     background-color: var(--primary-50);
     border-left: 4px solid var(--primary-400);
     color: var(--primary-500);
+    border-radius: var(--rounded-sm);
 }
 
 .note p {
@@ -73,6 +74,11 @@ footer {
     position: fixed;
     bottom: 0;
 }
+
+.present-page {
+    font-size: var(--text-l);
+    color: var(--black-base);
+}
 /* End : Footer Navbar */
 
 @media screen and (max-width: 768px) {
@@ -93,5 +99,10 @@ footer {
 
     footer {
         padding: 20px 24px;
+    }
+
+    .present-page {
+        font-size: var(--text-m);
+        color: var(--black-base);
     }
 }

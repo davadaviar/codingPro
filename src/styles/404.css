@@ -1,0 +1,38 @@
+.error-content {
+    width: 50%;
+    margin: 5em auto;
+    text-align: center;
+}
+
+.error-image {
+    width: 400px;
+    border-radius: var(--rounded-xl);
+    margin-bottom: 30px;
+}
+
+.caption h2 {
+    color: var(--black-base);
+}
+
+@media screen and (max-width: 768px) {
+
+    .error-content {
+        width: 100%;
+        margin: 50% auto;
+    }
+
+    .error-image {
+        width: 300px;
+        border-radius: var(--rounded-m);
+        margin-bottom: 20px;
+    }
+
+    .caption h2 {
+        font-size: var(--text-l);
+        font-weight: 700;
+    }
+
+    .caption p {
+        font-size: var(--text-sm);
+    }
+}
