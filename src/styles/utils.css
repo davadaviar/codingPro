@@ -60,23 +60,6 @@
 #source-preview {
     width: 100%;
 }
-
-.code-preview {
-    margin-top: 20px 0 30px 0;
-    width: 100%;
-    height: 10em;
-}
-
-.html-preview {
-    width: 100%;
-    height: 10em;
-    padding: 15px;
-    border: none;
-    outline: none;
-    resize: none;
-    text-align: left;
-    align-content: center;
-}
 /* End : Source Code Preview */
 
 

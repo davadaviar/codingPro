@@ -1,1 +1,22 @@
 @import './utils.css';
+
+.html-preview {
+    margin: 20px 0 10px 0;
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    background-color: var(--neutral-200);
+    border-radius: var(--rounded-l);
+}
+
+.html-container {
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+
+    .html-preview {
+        margin: 10px 0 30px 0;
+        border-radius: var(--rounded-m);
+    }
+}
