@@ -23,15 +23,20 @@
 <body>
 
     <main>
+        <!-- Start : Modul Header -->
+        <header class="modul-header">
+            <h3>Code Editor</h3>
+        </header>
+        <!-- End : Modul Header -->
+        <hr class="divider">
+
         <!-- Start : Preview Code -->
-        <section class="code-editor">
+        <section class="html-editor">
             <div class="left-side">
                 <!-- Start : Html -->
                 <div class="html-area">
                     <label><i class="fa-brands fa-html5"></i>HTML</label>
-                    <textarea name="html" class="html-input" id="html-input">
-                        <!-- Tuliskan kode di atas pada code editor di bawah ini kemudian klik "Run" untuk melihat hasilnya. -->
-                    </textarea>
+                    <textarea name="html" class="html-input" id="html-input"></textarea>
                 </div>
                 <!-- End : Html -->
             </div>
@@ -47,8 +52,6 @@
     
     <script src="src/library/jquery/jquery-3.6.0.min.js"></script>
     <script src="src/library/bootstrap/js/bootstrap.js"></script>
-    <script src="src/scripts/code-editor/codeEditor.js"></script>
-    <script src="src/scripts/ace.js"></script>
-    <script src="src/scripts/html-preview/tagHtml.js"></script>
+    <script src="src/scripts/html-editor/htmlEditor.js"></script>
 </body>
 </html>

@@ -1,1 +1,45 @@
-@import './utils.css'
+@import './utils.css';
+
+.html-preview {
+    margin: 20px 0 30px 0;
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    background-color: var(--neutral-200);
+    border-radius: var(--rounded-l);
+}
+
+.html-container {
+    width: 100%;
+}
+
+.cta-btn {
+    display: flex;
+    gap: 15px;
+}
+
+.btn-refference {
+    width: auto;
+}
+
+.btn-coba__preview {
+    width: auto;
+}
+
+@media screen and (max-width: 768px) {
+
+    .html-preview {
+        margin: 10px 0 20px 0;
+        border-radius: var(--rounded-m);
+    }
+
+    .cta-btn {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .btn-coba__preview {
+        width: 100%;
+    }
+}

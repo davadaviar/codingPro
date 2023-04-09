@@ -1,11 +1,12 @@
 @import './utils.css';
 
-.code-editor {
+.html-editor {
     margin-top: 50px;
     display: flex;
     padding: 20px;
     background-color: var(--neutral-200);
     gap: 30px;
+    border-radius: var(--rounded-xl);
 }
 
 .CodeMirror {
@@ -51,7 +52,7 @@ label i {
 
 iframe {
     width: 100%;
-    height: 10em;
+    height: 15em;
     padding: 20px;
     background-color: var(--white-base);
 }
@@ -59,7 +60,7 @@ iframe {
 
 @media screen and (max-width: 768px) {
     
-    .code-editor {
+    .html-editor {
         flex-direction: column;
         gap: 10px;
     }
