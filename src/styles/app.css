@@ -23,6 +23,7 @@
 body {
     font-family: 'Inter', sans-serif;
     color: var(--text-grey);
+    font-size: var(--text-m);
 }
 
 main {
