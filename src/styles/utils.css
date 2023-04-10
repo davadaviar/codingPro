@@ -5,7 +5,11 @@
 
 /* Start : Modul Header */
 .modul-header {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
 }
 
 .modul-header h3 {
@@ -90,6 +94,15 @@ footer {
 /* End : Footer Navbar */
 
 @media screen and (max-width: 768px) {
+
+    .modul-header {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .btn-silabus {
+        margin-top: 15px;
+    }
 
     .modul-header h3 {
         width: 100%;
