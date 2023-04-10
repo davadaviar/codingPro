@@ -30,10 +30,42 @@
         <!-- End : Modul Header -->
         <hr class="divider">
 
-        
+        <!-- Start : Preview Code -->
+        <section class="code-editor__latihan">
+            <div class="left-side">
+                <!-- Start : Html -->
+                <div class="html-area">
+                    <label><i class="fa-brands fa-html5"></i>HTML</label>
+                    <textarea name="html" class="html-input" id="html-input__latihan"></textarea>
+                </div>
+                <!-- End : Html -->
+
+                <!-- Start : Css -->
+                <div class="css-area">
+                    <label><i class="fa-brands fa-css3-alt"></i>CSS</label>
+                    <textarea name="css" class="css-input" id="css-input__latihan"></textarea>
+                </div>
+                <!-- End : Css -->
+
+                <!-- Start : Js -->
+                <div class="js-area">
+                    <label><i class="fa-brands fa-js"></i>Javascript</label>
+                    <textarea name="javascript" class="js-input" id="js-input__latihan"></textarea>
+                </div>
+                <!-- End : Js -->
+            </div>
+            <div class="right-side">
+                <div class="output-area">
+                    <button class="btn btn-primary btn-run__latihan"><i class="fa-solid fa-play"></i>Run</button>
+                    <iframe id="output-latihan"></iframe>
+                </div>
+            </div>
+        </section>
+        <!-- End : Preview Code -->
     </main>
     
     <script src="src/library/jquery/jquery-3.6.0.min.js"></script>
     <script src="src/library/bootstrap/js/bootstrap.js"></script>
+    <script src="src/scripts/code-editor/codeEditorLatihan.js"></script>
 </body>
 </html>
