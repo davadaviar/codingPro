@@ -38,7 +38,7 @@
     background-color: var(--neutral-200); 
   }
   
-  .panel {
+  .panel-instruction {
     padding: 0 15px;
     background-color: white;
     max-height: 0;
@@ -47,22 +47,22 @@
     border-bottom: 1px solid var(--neutral-300);
   }
 
-  .panel p {
+  .panel-instruction p {
     padding-top: 10px;
     font-size: var(--text-sm);
     margin-bottom: 10px;
   }
 
-  .panel ul {
+  .panel-instruction ul {
     padding: 0 15px;
     list-style-type: disc;
   }
 
-  .panel ul li {
+  .panel-instruction ul li {
     padding: 3px 0;
   }
 
-  .panel ul li p {
+  .panel-instruction ul li p {
     text-decoration: none;
     color: var(--text-grey);
     font-size: var(--text-sm);
@@ -81,7 +81,7 @@
         margin-top: 30px;
     }
 
-    .panel ul li a {
+    .panel-instruction ul li a {
         font-size: var(--text-m);
     }
 

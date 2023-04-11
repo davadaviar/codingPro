@@ -1,0 +1,11 @@
+@import './utils.css';
+
+.remainder {
+    width: 70%;
+    margin: 5em auto;
+}
+
+.remainder-image {
+    width: 500px;
+}
+

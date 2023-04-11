@@ -1,18 +1,15 @@
-// const btnPanelPetunjuk = document.querySelector('.btn-panel__petunjuk');
-// btnPanelPetunjuk.addEventListener('click', togglePanelPetunjuk);
+let acc = document.getElementsByClassName("accordion");
+let i;
 
-// const collapsePetunjuk = document.querySelector('.collapse-petunjuk');
-
-// function togglePanelPetunjuk() {
-//     collapsePetunjuk.classList.toggle('show');
-// }
-
-// const btnPanelSyarat = document.querySelector('.btn-panel__syarat');
-// btnPanelSyarat.addEventListener('click', togglePanelSyarat);
-
-// const collapseSyarat = document.querySelector('.collapse-syarat');
-
-// function togglePanelSyarat() {
-//     collapseSyarat.classList.toggle('show');
-// }
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    let panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
 
