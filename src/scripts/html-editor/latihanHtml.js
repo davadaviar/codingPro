@@ -17,11 +17,15 @@ function checkCode() {
     if (html.includes('<h1>Elemen Untuk Judul</h1>')) {
 
         const btnNextMateri = document.querySelector('.btn-next__materi');
-        btnNextMateri.classList.remove('disabled');
+        btnNextMateri.classList.remove('d-none');
+
+        const btnFailed = document.querySelector('.btn-failed__latihan');
+        btnFailed.remove();
         
     } else {
         
         const btnFailed = document.querySelector('.btn-failed__latihan');
         btnFailed.classList.remove('d-none');
+
     }
 }
