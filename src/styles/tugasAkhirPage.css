@@ -1,8 +1,11 @@
-.silabus-accordion {
+@import './utils.css';
+
+
+.instruction {
     border: 1px solid var(--neutral-300);
     border-radius: var(--rounded-sm);
     overflow: hidden;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .accordion {
@@ -15,7 +18,7 @@
     border: none;
     text-align: left;
     outline: none;
-    font-size: 15px;
+    font-size: var(--text-m);
     transition: 0.4s;
   }
 
@@ -44,18 +47,32 @@
     border-bottom: 1px solid var(--neutral-300);
   }
 
+  .panel p {
+    padding-top: 10px;
+    font-size: var(--text-sm);
+    margin-bottom: 10px;
+  }
+
   .panel ul {
-    padding: 7px 0;
-    list-style: none;
+    padding: 0 15px;
+    list-style-type: disc;
   }
 
   .panel ul li {
     padding: 3px 0;
   }
 
-  .panel ul li a {
+  .panel ul li p {
     text-decoration: none;
     color: var(--text-grey);
+    font-size: var(--text-sm);
+    margin: 0;
+  }
+
+  .btn-mulai__tugas {
+    margin-top: 50px;
+    width: 100px;
+    right: 80px;
   }
 
   @media screen and (max-width: 768px) {
@@ -66,5 +83,10 @@
 
     .panel ul li a {
         font-size: var(--text-m);
-      }
+    }
+
+    .btn-mulai__tugas {
+        margin-top: 30px;
+        right: 24px;
+    }
   }

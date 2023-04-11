@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/library/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="src/styles/app.css">
-    <link rel="stylesheet" href="src/styles/app.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="src/library/codemirror/lib/codemirror.css">
     <link rel="stylesheet" href="src/library/codemirror/theme/dracula.css">
@@ -30,10 +29,100 @@
         </header>
         <!-- End : Modul Header -->
         <hr class="divider">
+
+        <!-- Start : Intro Sub Materi -->
+        <article class="sub-materi">
+            <section class="sub-body mt-5">
+                <p>
+                    Kalian telah menyelesaikan seluruh materi yang ada pada modul ini. Sangat tidak afdhol jika kita tidka mengimplementasikan ilmu - ilmu yang telah kita pelajari di modul ini. Sebagai bentuk implementasi dari modul ini siswa diharap membuat sebuah project sederhana dengan memanfaatkan seluruh dasar - dasar yang telah dijelaskan pada modul ini dari awal hingga akhir. Berikut petunjuk, syarat dan ketentuan untuk mengerjakan tugas akhir ini :               
+                </p>
+            </section>
+        </article>
+        <!-- End : Intro Sub Materi -->
+
+        <!-- Start : Submission Instruction -->
+        <section class="instruction">
+            <button class="accordion">Petunjuk</button>
+            <div class="panel">
+                <p>
+                    Untuk mengerjakan tugas akhir berupa proyek siswa diminta untuk menggunakan kode editor berupa Visual Studio Code, Atom, Sublime, dan lain - lain. Dan file dari project tugas akhir dapat anda submit pada halaman ini.
+                </p>      
+            </div>
+            <!-- End : Item 1 -->
+
+            <!-- Start : Item 2 -->
+            <button class="accordion">Ketentuan</button>
+            <div class="panel">
+                <p>Untuk ketentuan pengerjaan project tugas akhir beserta nilai yang akan siswa dapatkan berdasarkan implementasi project pada tugas akhir yang didasarkan pada materi modul ini sebagai berikut:
+
+                </p>
+                <ul>
+                    <li>
+                        <p>
+                            Siswa akan mendapat nilai <span class="code-tag">100</span> jika menerapkan <strong>Semantic HTML</strong>, <strong>CSS grid</strong>, <strong>DOM Javascript</strong>, <strong>Fetching API</strong>, dan <strong>menggunakan Framework Bootstrap</strong> dalam projectnya.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Siswa akan mendapat nilai <span class="code-tag">90</span> jika menerapkan <strong>Semantic HTML</strong>, <strong>CSS grid</strong>, <strong>DOM Javascript</strong> dan <strong>Fetching API</strong> dalam projectnya.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Siswa akan mendapat nilai <span class="code-tag">80</span> jika menerapkan <strong>Semantic HTML</strong>, <strong>CSS grid</strong>, <strong>DOM Javascript</strong>, dan <strong>menggunakan Framework Bootstrap</strong> dalam projectnya.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Siswa akan mendapat nilai <span class="code-tag">70</span> jika menerapkan <strong>Semantic HTML</strong>, <strong>CSS grid</strong>, dan <strong>DOM Javascript</strong> dalam projectnya.
+                        </p>
+                    </li>
+                </ul>   
+            </div>
+            <!-- End : Item 2 -->
+
+            <!-- Start : Item 3 -->
+            <button class="accordion">Syarat</button>
+            <div class="panel">
+                <p>
+                    Syarat - syarat yang harus siswa ikuti untuk penilaian tugas akhir sebagai berikut :
+                </p>
+                <ul>
+                    <li>
+                        <p>
+                            Yang harus ada pada file adalah file <span class="code-tag">index.html</span>, folder <span class="code-tag">src</span>, dan file <span class="code-tag">README.md</span> yang berfungsi untuk memberi definisi project anda.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Jika terdapat <span class="error-tag">plagiarisme</span> pada project anda dengan project siswa lain, maka nilai dari siswa yang anda plagiat dan project anda otomatis diberi nilai <span class="code-tag">0</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Siswa dapat mengirimkan link repository Github atau file berformat <span class="code-tag">.rar/.zip</span> dari project akhir.
+                        </p>
+                    </li>
+                </ul>         
+            </div>
+            <!-- End : Item 3 -->
+        </section>
+        <!-- End : Submission Instruction -->
+
+        <a href="#" class="btn btn-primary btn-mulai__tugas position-absolute">Mulai</a>
     </main>
 
     
-    <script src="src/library/jquery/jquery-3.6.0.min.js"></script>
+    <!-- <script src="src/library/jquery/jquery-3.6.0.min.js"></script> -->
+    <script 
+        src="https://code.jquery.com/jquery-3.6.4.min.js" 
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" 
+        crossorigin="anonymous"
+    >
+    </script>
     <script src="src/library/bootstrap/js/bootstrap.js"></script>
+    <script src="src/scripts/collapseTugasAkhir.js"></script>
+    <script src="src/scripts/accordion.js"></script>
+
 </body>
 </html>
