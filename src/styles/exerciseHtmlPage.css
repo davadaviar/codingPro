@@ -1,0 +1,19 @@
+@import './utils.css';
+
+
+.soal-latihan {
+    margin: 50px 0;
+}
+
+.elemen-output {
+    padding: 15px;
+    border: 2px solid var(--neutral-400);
+    border-radius: var(--rounded-xl);
+    margin-bottom: 20px;
+}
+
+.elemen-output h1 {
+    padding: 0;
+    margin: 0;
+    font-size: var(--text-2xl);
+}

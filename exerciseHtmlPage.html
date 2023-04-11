@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/library/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="src/styles/app.css">
+    <link rel="stylesheet" href="src/styles/app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="src/library/codemirror/lib/codemirror.css">
+    <link rel="stylesheet" href="src/library/codemirror/theme/dracula.css">
+    <script src="https://kit.fontawesome.com/85426d1d7d.js" crossorigin="anonymous"></script>
+    <script src="src/library/codemirror/lib/codemirror.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/ace-builds@1.16.0/src-min-noconflict/ace.min.js"></script>
+    <script src="src/library/codemirror/mode/xml/xml.js"></script>
+    <script src="src/library/codemirror/mode/css/css.js"></script>
+    <script src="src/library/codemirror/mode/javascript/javascript.js"></script>
+    <script src="src/library/codemirror/addon/comment/comment.js"></script>
+    <script src="src/library/codemirror/addon/edit/closetag.js"></script>
+    <title>Latihan HTML</title>
+</head>
+<body>
+
+    <main>
+
+        <!-- Start : Modul Header -->
+        <header class="modul-header">
+            <h3>Latihan</h3>
+        </header>
+        <!-- End : Modul Header -->
+        <hr class="divider">
+
+        <!-- Start : Soal -->
+        <section class="soal-latihan">
+            <div class="elemen-output">
+                <h1>Elemen Untuk Judul</h1>
+            </div>
+            <div class="deskripsi">
+                <p>
+                    Untuk menampilkan elemen seperti di atas maka tag HTML yang digunakan adalah tag?...
+                </p>
+            </div>
+        </section>
+        <!-- End : Soal -->
+
+        <!-- Start : Preview Code -->
+        <section class="html-preview">
+            <div class="html-container">
+                <!-- Start : Html -->
+                <div class="html-area">
+                    <label><i class="fa-brands fa-html5"></i>HTML</label>
+                    <textarea name="html" class="html-input" id="html-input__latihan">
+<!-- Tulis kalimat sesuai elemen soal, contoh <p>Elemen Untuk Judul</p> -->
+                    </textarea>
+                </div>
+                <!-- End : Html -->
+            </div>
+            <div class="cta-btn">
+                <button class="btn btn-primary btn-check__code">Cek Kode</button>
+                <a class="btn btn-primary btn-next__materi disabled" href="tugasAkhirPage.html">Materi Selanjutnya</a>
+                <a class="btn btn-danger btn-failed__latihan d-none" href="tagHtmlPage.html">Baca Lagi Materi</a>
+            </div>
+        </section>
+        <!-- End : Preview Code -->
+
+        <!-- Start : Modal -->
+
+        <!-- End : Modal -->
+
+    </main>
+    
+    <script src="src/library/jquery/jquery-3.6.0.min.js"></script>
+    <script src="src/library/bootstrap/js/bootstrap.js"></script>
+    <script src="src/scripts/html-editor/latihanHtml.js"></script>
+</body>
+</html>

@@ -11,6 +11,8 @@
 @import './tagHtmlPage.css';
 @import './semanticHtmlPage.css';
 @import './exercisePage.css';
+@import './exerciseJsPage.css';
+@import './exerciseHtmlPage.css';
 @import './tugasAkhirPage.css';
 @import './submissionPage.css';
 @import './codeEditor.css';
